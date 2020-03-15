@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    org.activiti: debug #开启activiti日志
+
+spring:
+  application:
+    name: learn-activiti
+
+  datasource:
+    name: activiti
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/activiti?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root@
+
+
